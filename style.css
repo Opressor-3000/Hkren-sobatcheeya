@@ -1,1 +1,60 @@
+#a1 {
+    color: blueviolet; 
+    font-family: Arial; 
+    font-size: 16px
+}
+
+#page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.class {
+    background-image: url(images/)
+}
+
+.lorem_1 {
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: lighter;
+    background-color: black;
+    color: lightgrey;
+}
+
+#span {
+    color: aqua;
+}
+.strong-red {
+    font-weight: bolder;
+    color: red;
+}
+
+.light-blue {
+    font-weight: lighter;
+    color: skyblue;
+}
+
+.A {
+    font-style: oblique;
+    text-align: center;
+}
+
+/* для присвоения стиля только для определенного элемента # */
+#only {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+/*div {width: 100; height: 100;}
+div - селектор
+оформление {свойство: значение;}
+шрифты - font
+font-style 
+font-weight тип шрифта 
+font-family шрифты exemple: Ariel
+font-size размер в px
+text-decoration
+*/
 CSS
