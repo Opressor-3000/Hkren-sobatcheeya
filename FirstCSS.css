@@ -1,24 +1,41 @@
 /* First */
-body {
-	/*background-color: #333333 /* vrgba () /* фон сайта */
-	background-image: url(images/1.jpg);
+body { /* что бы изменить фон body или добавить изображение в виде фона */
+	background-color: #333333 /* rgba() а = альфа (прозрачность) /* фон сайта */
+	background-image: url(images/1.jpg); /* для загрузки внешнего изображения */
 	background-repeat: repeat-y; /* repeat-x - no-repeat */
-	background-attachment: scroll; /* fixed; scroll - default */
-	background-position: left-top; /* right-top; right-botton; left-botton;
-	 50% 50%; 100px 100px*/
-	background: #333333 url(images/1.jpg) repeat-y left-top;
+	background-attachment: scroll; /* fixed; scroll - default прокручивание вместе с содержимым*/
+	background-position: left-top; /* первое значение отвечает за положение по оси х, а второе значение отвечает 
+	за положение по оси у от левого верхнего угла . -  right-top; right-botton; left-botton; 
+	 50% 50%; 100px 100px; */
+	background: #333333 url(images/1.jpg) repeat-y left-top; /* запись одной строкой */ 
 }
 /*
 CSS - синтаксис состоит 
 селектор{оформление} 
 сеелектор - div {свойство:значение; свойство:значение;} 
 div {width:960px;height:640;}
-
+селектор p = тег <p></p>
+div = <div></div>
 */
+p {color
+/*
+font-size = размер шрифта
+font-family - тип шрифта
+color - цвет шрифта RGB 0x 
+	
+	в CSS 2 Типа Селекторов для выборки
+1. Идентификаторы - id="page"; 
+	#page {} - 
+2. Классы - class="text";
+	.text {}
+*/
+
+
+
 
 #FirstPage {
  width: 960px;
- margin: 0 auto;
+ margin: 0 auto; /* для отцентрирования по середине */
 }
 
 .strong-red {
@@ -31,6 +48,9 @@ div {width:960px;height:640;}
 	font-weight: lighter;
 	color: blue;
 }
+/*
+	если на один и тот же селектор применены несколько стилей то задействуется последний стиль
+*/
 
 .light-blue {
 	font-size: 25px;
@@ -39,3 +59,25 @@ div {width:960px;height:640;}
 .light-blue {
     
 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
