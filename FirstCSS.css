@@ -1,0 +1,34 @@
+/* First */
+body {
+	/*background-color: #333333 /* vrgba () /* фон сайта */
+	background-image: url(images/1.jpg);
+	background-repeat: repeat-y; /* repeat-x - no-repeat */
+	background-attachment: scroll; /* fixed; scroll - default */
+	background-position: left-top; /* right-top; right-botton; left-botton;
+	 50% 50%; 100px 100px*/
+	background: #333333 url(images/1.jpg) repeat-y left-top;
+}
+
+#FirstPage {
+ width: 960px;
+ margin: 0 auto;
+}
+
+.strong-red {
+	font-weight: bolder;
+	color: red;
+
+}
+
+.light-blue {
+	font-weight: lighter;
+	color: blue;
+}
+
+.light-blue {
+	font-size: 25px;
+	color: black;
+}
+.light-blue {
+    
+}
