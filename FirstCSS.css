@@ -8,6 +8,13 @@ body {
 	 50% 50%; 100px 100px*/
 	background: #333333 url(images/1.jpg) repeat-y left-top;
 }
+/*
+CSS - синтаксис состоит 
+селектор{оформление} 
+сеелектор - div {свойство:значение; свойство:значение;} 
+div {width:960px;height:640;}
+
+*/
 
 #FirstPage {
  width: 960px;
